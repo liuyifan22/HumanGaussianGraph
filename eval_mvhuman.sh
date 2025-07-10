@@ -1,0 +1,2 @@
+# CUDA_VISIBLE_DEVICES=6 python sys_eval/eval_mvhuman_ours.py big --resume pretrained/model_ours_4head_223.safetensors --workspace eval_mvhuman_ours --test_path data_test_fake
+CUDA_VISIBLE_DEVICES=1 python sys_eval/eval_mvhuman_ours.py big --resume your_model.safetensors --workspace eval_mvhuman 
