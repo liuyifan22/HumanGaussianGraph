@@ -3,7 +3,7 @@
 
 This is the official implementation of *HGG: Learning Efficient and Generalizable Human Representation with Human Gaussian Model*.
 
-### [Project Page]() | [Arxiv]() | [Video]() 
+### [Project Page](https://simon-dcs.github.io/Human_Gaussian_Graph) | [Arxiv](https://arxiv.org/abs/2507.18758)
 
 
 ![HGG Teaser](./assets/teaser.png)
@@ -61,7 +61,7 @@ You will get a workspace with rendered images.
 
 ### Training
 
-First please list all the data and cameras and poses you want to train into `./mvhuman_24/human.json` like:
+First please list all the data, cameras and poses you want to train into `./mvhuman_24/human.json` like:
 
 ```json
 {
@@ -76,18 +76,24 @@ Then you can run the training script:
 ```bash
 bash train.sh # modify the gpu1/8.yaml
 ```
-You might also want to modify the `gpu1/8.yaml` file to set the training parameters, to use multi-gpu training.
+You might also want to modify the `gpu1/8.yaml` file to set the training parameters to use multi-gpu training.
 
 ### Acknowledgement
 This work is generously supported by [Tencent](https://www.tencent.com/en-us/).
 
-This work is built on the amzing work of [LGM](https://github.com/3DTopia/LGM) and [MvHumanNet](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet). We thank them for sharing the wonderful code and dataset!
+This work is built on the amazing work of [LGM](https://github.com/3DTopia/LGM) and [MvHumanNet](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet). We thank them for sharing the wonderful code and dataset!
 
 
 ### Citation
 If you find this code useful in your work, please consider citing our paper (and maybe give a star to this repo!):
 ```
-Let's wait for the camera ready version.
+@inproceedings{liu2025learning,
+  title={Learning Efficient and Generalizable Human Representation with Human Gaussian Model},
+  author={Liu, Yifan and Zhang, Shengjun and Dai, Chensheng and Chen, Yang and Liu, Hao and Li, Chen and Duan, Yueqi},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={11797--11806},
+  year={2025}
+}
 ```
 
 ### Possible Issues and Solutions
