@@ -38,7 +38,7 @@ pip install git+https://github.com/facebookresearch/pytorch3d.git@stable
 
 Our training dataset can be downloaded from [MvHumanNet Repo](https://github.com/GAP-LAB-CUHK-SZ/MVHumanNet/blob/main/download_tool_mvhuman.py)
 
-Please link (because the dataset is really huge) the downloaded dataset to `./mvhuman_24`, you can run the following command to prepare the dataset:
+Please link the downloaded dataset to `./mvhuman_24`, you can run the following command to prepare the dataset:
 
 
 Please download the NEUTRAL pkl from [SMPL](https://smpl.is.tue.mpg.de/) model and put it as `./smpl_renderer/mvhuman_tools/visual_smpl/smpl_/SMPL_NEUTRAL.pkl` .
